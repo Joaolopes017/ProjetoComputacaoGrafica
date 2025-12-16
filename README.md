@@ -3,7 +3,7 @@ The Labyrinth - 3D Maze
 This project is a 3D maze game developed in JavaScript using the Three.js library. The goal is to provide an immersive experience navigating through a maze, with car controls, different lighting types, day and night textures, fog effects, background music, and car model switching.
 
 
-Features
+Features:
 
 3D Graphics: Maze and models rendered in 3D with Three.js.
 
@@ -24,7 +24,7 @@ Timer: Time system to challenge the player.
 Interactive Menu: Intuitive interface with options to play, view tutorial, or exit.
 
 
-Project Structure
+Project Structure:
 
 index.html: Main game page.
 
