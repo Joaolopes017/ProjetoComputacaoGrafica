@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Labirinto 3D</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <script type="importmap">
+    {
+        "imports":{
+            "three":"https://unpkg.com/three@0.151.2/build/three.module.js",
+            "FBXLoader": "https://unpkg.com/three@0.151.2/examples/jsm/loaders/FBXLoader.js",
+            "PointerLockControls": "https://unpkg.com/three@0.151.2/examples/jsm/controls/PointerLockControls.js",
+            "OrbitControls": "https://unpkg.com/three@0.151.2/examples/jsm/controls/OrbitControls.js"
+        }
+   }
+  </script>
+
+<script type="module" src="JavaScript/main.js"></script>
+
+<div id="menu" class="menu">
+  <h1>The Labyrinth</h1>
+  <button id="playButton">Jogar</button>
+  <button id="tutorialButton">Como Jogar</button>
+</div>
+<div id="tutorial" class="tutorial">
+  <h1>Como Jogar!</h1>
+  <p>Oh Bruno já aguentas 3 shots?</p>
+  <button id="backButton">Voltar</button>
+</div>
+
+<div id="game" style="display: none;">
+  <div id="buttonContainer" style="position: absolute; top: 10px; right: 10px; display: none;">
+    <button id="myButton">Luz Ambiente</button>
+    <button id="myButton2">Luz Direcional</button>
+    <button id="myButton3">Farois Máximos</button>
+    <button id="myButton8">Farois Médios</button>
+    <button id="myButton4">Textura Noite</button>
+    <button id="myButton5">Textura Dia</button>
+    <button id="myButton6">Nevoeiro</button>
+    <button id="myButton7">Musica</button>
+    <button id="myButton9">Alterar Carro</button>
+    <button id="myButton10">Voltar</button>
+    <button id="myButton11">Carro Azul</button>
+    <button id="myButton12">Carro Vermelho</button>
+    <button id="myButton13">Animação</button>
+    <button id="exitButton">Sair</button>
+  </div>
+
+<div id="gameContainer" type="module">
+  <div id="cronometro" class="cronometro"></div>
+</div>
+</div>
+
+  
+
+</body>
+</html>
